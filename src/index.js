@@ -1,3 +1,4 @@
+import "./global.scss"
 import section from "./components/section.js"
 
 let element = document.querySelector("#wrapper")

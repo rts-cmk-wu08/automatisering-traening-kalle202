@@ -8,7 +8,12 @@ module.exports = {
     },
     devtool: "inline-source-map",
     devServer: {
-        open: true,
+        open: {
+            app:{
+                name: "firefox"
+            }  
+        },
+
         static: {
             directory: path.join(__dirname, "build")
         },
